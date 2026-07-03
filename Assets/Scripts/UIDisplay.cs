@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class UIDisplay : MonoBehaviour
+public class UIDisplay : MonoBehaviour, IPlayerDisplay
 {
     public ApiService apiService;
 
